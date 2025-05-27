@@ -41,7 +41,7 @@ churn-predictor-streamlit-postgres/
 ├── model/
 │   └── preprocess_and_train.ipynb     # ETL + training notebook
 ├── store_postgre/
-│   └── main.ipynb           # PostgreSQL connection setup (psycopg3)
+│   └── main.ipynb           # PostgreSQL connection setup (psycopg2)
 ├── requirements.txt         # All dependencies
 └── README.md                # Project documentation
 ```
