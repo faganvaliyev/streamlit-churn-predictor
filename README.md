@@ -28,3 +28,20 @@ An end-to-end machine learning application that predicts employee churn using sy
 
 ## 📂 Project Structure
 
+churn-predictor-streamlit-postgres/
+├── app
+  ├── app.py # Streamlit application
+  ├── model.joblib # Trained model
+  ├── scaler.joblib
+├── data
+  ├── Azerbaijan_bank_customers.csv (data that created with faker)
+├── data_generating
+  ├── main.py  # Main notebook (Faker) 
+├── model
+  ├── preprocess_and_train.ipynb # Main notebook (ETL + training)
+├── store_postgre
+  ├── main.ipynb # PostgreSQL connection setup (psycopg2)  
+├── requirements.txt # All dependencies
+└──  README.md # Project documentation
+
+
