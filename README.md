@@ -7,7 +7,7 @@ An end-to-end machine learning application that predicts employee churn using sy
 ## 🧩 Features
 
 - Generates realistic employee data using `Faker`
-- Stores generated data in a PostgreSQL database via `psycopg3`
+- Stores generated data in a PostgreSQL database via `psycopg2`
 - Trains a churn prediction model with `scikit-learn`
 - Interactive Streamlit UI for real-time predictions
 - Notebook for data generation and model training
@@ -19,7 +19,7 @@ An end-to-end machine learning application that predicts employee churn using sy
 - Python
 - Streamlit
 - scikit-learn
-- psycopg3
+- psycopg2
 - PostgreSQL
 - Faker
 - pandas / numpy / matplotlib
