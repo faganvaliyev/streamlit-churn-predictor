@@ -5,11 +5,12 @@ from pandas.api.types import CategoricalDtype
 import numpy as np
 
 # Load model and scaler
-model = joblib.load('model.joblib')
-scaler = joblib.load('scaler.joblib')
+
+model = joblib.load('app/model.joblib')
+scaler = joblib.load('app/scaler.joblib')
 
 # Load data
-file_path = r'C:\Users\User\OneDrive\Desktop\report\data\Azerbaijan_bank_customers.csv'
+file_path = 'data/Azerbaijan_bank_customers.csv'
 df = pd.read_csv(file_path)
 
 # Title
