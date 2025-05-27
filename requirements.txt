@@ -3,7 +3,7 @@ pandas
 numpy
 scikit-learn
 faker
-psycopg2
+psycopg2-binary==2.9.10
 matplotlib
 seaborn
 joblib
