@@ -1,7 +1,8 @@
 # Churn Predictor Streamlit App with PostgreSQL
 
 An end-to-end machine learning application that predicts employee churn using synthetically generated data. It features a Streamlit-based front-end, a machine learning model, and PostgreSQL for data storage.
- web-interface - https://app-churn-predictor.streamlit.app/
+
+#### web-interface - https://app-churn-predictor.streamlit.app/
 ---
 
 ## 🧩 Features
